@@ -21,7 +21,7 @@ The program ends when the position moves past either end of the tape.
 
 The final state is interpreted as trinary (W, R, and H map to 0, 1, and 2, respectively), and then displayed based on the provided encoding. The encoding can be either a base (in decimal) for numeric output, the name of a character encoding, `WRH` for source encoding, or `RLE` for run-length encoded source. The default is `12` for duodecimal output (since it's [the best base](http://en.wikipedia.org/wiki/Duodecimal)).
 
-Assuming a program ends with the state RRHHRRH (interpreted as 1122112 in trinary) here is a list of potential outputs:
+Assuming a program ends with the state RRHHRRH (interpreted as 1122112 in ternary) here is a list of potential outputs:
 * 2:       00000100 10110010
 * 3:       1122112
 * 10:      1202
